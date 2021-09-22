@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Lato";
+  src: url("../assets/fonts/Lato/Lato-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lato-Thin";
+  src: url("../assets/fonts/Lato/Lato-Thin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lato-Light";
+  src: url("../assets/fonts/Lato/Lato-Light.ttf") format("truetype");
+}
+
+p,
+a,
+li {
+  font-family: "Lato-Light", sans-serif;
+  font-size: 15px;
+}

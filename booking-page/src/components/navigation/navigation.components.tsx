@@ -24,7 +24,7 @@ export const Navigation = () => {
             </article>
             <article className="nav-menu">
                 <ul className="nav-menu-items">
-                    <li className="nav-menu-item active">
+                    <li className="nav-menu-item">
                         Need help?
                     </li>
                     <li className="nav-menu-item">

@@ -16,20 +16,48 @@
     align-items: center;
 
     &-bars {
-      border-right: 1px solid $light-gray;
+      display: flex;
+      align-items: center;
+      border-right: 1px solid #efefef;
+      margin: 0 20px;
+      height: 100%;
+      padding-right: 20px;
     }
 
     &-items {
       display: flex;
       align-items: center;
+      height: 100%;
     }
 
     &-item {
       list-style: none;
+      font-size: 12px;
+      margin: 5px 20px;
 
       &.active {
-        border-bottom: 3px solid $yellow;
+        position: relative;
+
+        &::after {
+          width: 100%;
+          background: $yellow;
+          height: 3px;
+          position: absolute;
+          bottom: -22px;
+          left: 0px;
+          content: "";
+        }
       }
+    }
+
+    &-search {
+      display: flex;
+      align-items: center;
+      border-left: 1px solid #efefef;
+      margin: 0 20px;
+      height: 100%;
+      list-style: none;
+      padding-left: 20px;
     }
   }
 }
