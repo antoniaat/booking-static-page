@@ -1,0 +1,35 @@
+@import "../../styles/variables.scss";
+
+.nav {
+  display: grid;
+  grid-template-columns: max-content 1fr max-content;
+  border-bottom: 1px solid $light-gray;
+
+  &-logo {
+    align-self: center;
+    justify-self: center;
+    font-size: 23px;
+  }
+
+  &-menu {
+    display: flex;
+    align-items: center;
+
+    &-bars {
+      border-right: 1px solid $light-gray;
+    }
+
+    &-items {
+      display: flex;
+      align-items: center;
+    }
+
+    &-item {
+      list-style: none;
+
+      &.active {
+        border-bottom: 3px solid $yellow;
+      }
+    }
+  }
+}

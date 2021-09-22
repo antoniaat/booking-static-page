@@ -1,9 +1,10 @@
 import React from 'react';
+import { Navigation } from './components/navigation/navigation.components';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      haha
+      <Navigation />
     </div>
   );
 }
