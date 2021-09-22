@@ -2,7 +2,7 @@ import './styles/index.scss';
 
 import { Navigation } from './components/navigation/navigation.components';
 import { BookingBar } from './components/booking-bar/booking-bar.component';
-import { RoomsSlider } from './components/rooms-slider/rooms-slider.component';
+import { RoomsSection } from './components/rooms-slider/rooms-section.component';
 
 const App = () => {
   return (
@@ -10,7 +10,7 @@ const App = () => {
       <Navigation />
       <BookingBar />
       <main>
-        <RoomsSlider />
+        <RoomsSection />
       </main>
     </div>
   );
