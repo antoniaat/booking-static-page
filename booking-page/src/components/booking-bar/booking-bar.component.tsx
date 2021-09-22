@@ -1,13 +1,7 @@
 import 'react-dropdown/style.css';
 import './booking-bar.styles.scss';
 
-import React from 'react';
 import Dropdown from 'react-dropdown';
-import { FaBars, FaSearch } from 'react-icons/fa';
-
-const options = [
-    'one', 'two', 'three'
-];
 
 const fromToData = [
     '3 Jan 2020 - 28 Feb 2020',
@@ -21,7 +15,6 @@ const forData = [
     '3 Guests',
     '4 Guests',
 ]
-
 
 export const BookingBar = () => {
     return (
