@@ -1,0 +1,12 @@
+@import "./variables.scss";
+
+.btn {
+  text-transform: uppercase;
+  border: none;
+  padding: 20px 26px;
+  letter-spacing: 3px;
+
+  &-primary {
+    background: $yellow;
+  }
+}

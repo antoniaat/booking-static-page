@@ -1,0 +1,27 @@
+@import "../../styles/dropdown.scss";
+@import "../../styles/variables.scss";
+
+.booking-bar {
+  &-list {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 50px;
+
+    &-item {
+      border-right: 1px solid $light-gray;
+      margin: 10px;
+      padding-right: 10px;
+
+      &:last-child {
+        border-right: none;
+        padding-right: 0;
+      }
+
+      &-label {
+        margin-top: 0;
+        font-size: 11px;
+      }
+    }
+  }
+}
